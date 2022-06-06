@@ -1,0 +1,58 @@
+<html>
+
+<meta charset="UTF-8">
+
+<head><title>포켓몬 도감</title></head>
+
+<body>
+	<style>
+		body {
+			background-image: url('https://mblogthumb-phinf.pstatic.net/20150721_294/deuxiemevie7_1437406887138TvDTr_JPEG/tumblr_nrj0mey6g41r8sc3ro1_1280.jpg?type=w2');
+			background-repeat : no-repeat
+			background-size : cover;
+
+		}
+	</style>
+ 
+ <h1>포켓몬 도감</h1>
+	
+	<form method="post" action="pokemon1_select.php">
+	    도감 전체보기 <br>
+	    <input type="submit" value="보기">
+	</form>
+
+
+	 
+	<form method="post" action="pokemon_insert.php">
+	    이름 입력<input type="text" name="a1"><br>
+	    타입_1 입력<input type="text" name="a2"><br>
+	    타입_2 입력<input type="text" name="a3"><br>
+	    키 입력<input type="text" name="a4"><br>
+	    분류 입력<input type="text" name="a5"><br>
+	    성비 입력<input type="text" name="a6"><br>
+	    무게 입력<input type="text" name="a7"><br>
+	    특성 입력<input type="text" name="a8"><br>
+	    표켓몬 정보 입력<input type="text" name="a9"><br>
+	    <input type="submit" value="확인">
+	</form>
+	 
+	 
+	<form method="post" action="pokemon1_search.php">
+	    이름으로 검색 <input type="text" name="c1"><br>
+	    <input type="submit" value="검색">
+	</form>
+
+	<form method="post" action="pokemon3_search.php">
+	    특성으로 검색<input type="text" name="c1"><br>
+	    <input type="submit" value="검색">
+	</form>
+
+	<form method="post" action="pokemon2_search.php">
+	    타입으로 검색<input type="text" name="c1"><br>
+	    <input type="submit" value="검색">
+	</form>
+
+
+</body>
+
+</html>
